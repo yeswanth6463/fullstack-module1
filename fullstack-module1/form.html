@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>
+            forms
+        </title>
+        <style>
+            input[type=text],select{
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid rgb(185, 105, 105);
+                border-radius: 4px;
+                box-sizing:border-box
+            }
+            input[type=password],select{
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid rgb(179, 94, 94);
+                border-radius: 4px;
+                box-sizing:border-box
+            }
+            input[type=submit]{
+                width: 100%;
+                background-color:green;
+                color:rgb(220, 227, 234);
+                padding:14px 20px;
+                margin: 8px 0;
+                border: none;
+                border-radius:4px;
+                cursor:pointer;
+                
+            }
+            input[type=submit]:hover{
+                background-color:rgb(4, 12, 18);
+                
+            }
+            div{
+                border-radius: 5px;
+                background-color: white;
+                padding: 20px;
+            }
+            
+        </style>
+    </head>
+    <body>
+        <div>
+
+        
+        <form action="/">
+            <label for="fname">First name</label>
+            <input type="text" name="firstname" placeholder="enter a first name">
+            
+            <label for="lname">last name</label>
+            <input type="text" name="lastname" placeholder="enter a last name">
+             
+                <label for="password">password</label>
+            <input type="password" name="password" placeholder="enter a password">
+
+            <input type="submit" value="submit">
+            </div>
+
+        </form>
+    </body>
+
+</html>
