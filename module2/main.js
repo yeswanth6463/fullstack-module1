@@ -1,0 +1,15 @@
+console.log("get");
+console.log("helllo,how ");
+console.log("erroerrr");
+var age;
+var bag ='books';
+var fullname="yeswanth";
+bag ="tiff";
+ var engmarks=69;
+ var tamilmarks=90;
+ console.log(engmarks+tamilmarks);
+var count=20+20;
+console.log(count);
+age= 24;
+console.log(bag);
+console.log(fullname);
